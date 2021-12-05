@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="inner">
+            <a href="/" class="logo"></a>
+            <div class="Menu">
+             <a href="index.html" target="_blank">Home</a>
+                <a href="About.html" target="_blank">About</a> 
+                
+                <a href="Merch.html" target="_blank">Merchandise</a> 
+                <a href="Shows.html" target="_blank">Shows</a>
+                <a href="Contact.html" target="_blank">Contact</a> 
+            </div>
+
+
+
+
+        </nav>
+
+        </div>
+
+        <section id="home">
+            <div class="inner">
+                <div class="content">
+                    <h1>Shop Merchandise</h1>
+                    <hr>
+                </section class="tour-content">
+                </div  class="items">
+                
+                <img src="ShopCap.jpg" alt="" class="itms">
+                
+                <img src="Shoes.jpg" alt="" class="itms">
+                
+                <img src="mask.jpg" alt="" class="itms">
+                <img src="Jacket.jpg" alt="" class="itms">
+                </div>
+                <br>
+            <form action="shop.php" method="post" >
+                <div class="Checkout">
+                <div><input type="checkbox" name="sel[]" value="cap" >Price : $7
+                    <br>~ Quantity :
+                <input type="number" name="qtycap" id=""min=1 max=5 placeholder="    1" >      </div>
+                <div><input type="checkbox" name="sel[]" value="shoes">Price : $100
+                    <br>~ Quantity : <input type="number" name="qtyshoe" id=""min=1 max=5 placeholder="    1"> </div>
+                <div> <input type="checkbox" name="sel[]" value="mask">Price : $15
+                    <br>~  Quantity :<input type="number" name="qtymask" id=""min=1 max=5 placeholder="    1"> </div>
+                <div><input type="checkbox" name="sel[]" value="jacket">Price : $40
+                    <br>~  Quantity : <input type="number" name="qtyjack" id="" min=1 max=5 placeholder="    1">  </div>
+            </div>
+                
+                <div class="info">
+                    <div class="box">
+                <input type="text"  name="ordn" placeholder="Full Name">
+                <br>
+                <input type="textarea"  name="orda" placeholder="Address">
+                <br>
+                <input type="email"  name="orde" placeholder="Email">
+                <br>
+                <input type="text"  name="ordnm" maxlength="10" placeholder="Contact Number">
+                <br>
+               
+                    </div>
+                <button type="submit" id="#sb" >Place Order</button>
+            </div>
+
+            </form>
+                </section>
+            </div> 
+            
+               
+    </body>
+    </html>   
